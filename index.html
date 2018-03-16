@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 引入文件 -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/jquery.fullpage.min.js"></script>
+    <script src="./js/html5shiv.min.js"></script>
+    <script src="./js/jquery.easing.1.3.js"></script>
+    <script src="./js/index.js"></script>
+
+    <title>我的购物车</title>
+</head>
+<body>  
+    <div class="shoppingcar">
+        <!-- 第一屏 -->
+        <div class="section section1">
+            <img class="products" src="./images/01/products.png" alt="">
+            <img class="sofa" src="./images/01/sofa.png" alt="">
+            <img class="ball" src="./images/01/ball.png" alt="">
+        </div>
+        <!-- 第二屏 -->
+        <div class="section section2">
+            <!-- 左边的搜素框 -->
+            <img class="search01" src="./images/02/search01.png" alt="">
+            <img class="search02" src="./images/02/search02.png" alt="">
+            <div class="box">
+                <img class="sofas" src="./images/02/sofas.png" alt="">
+            </div>
+        </div>
+        <div class="section section3">
+            <img class="sofa" src="./images/03/sofa.png" alt="">
+            <div class="color"></div>
+            <div class="add"></div>
+        </div>
+        <div class="section section4">
+            <img class="keyboard" src="./images/04/keyboard.png" alt="">
+            <img class="address" src="./images/04/address.png" alt="">
+            <div class="box">
+                <img class="sofa" src="./images/04/sofa.png" alt="">
+                <img class="car" src="./images/04/car.png" alt="">
+            </div>
+            <img class="cloud" src="./images/04/cloud.png" alt="">
+            <img class="words02" src="./images/04/words02.png" alt="">
+        </div>
+        <div class="section section5">
+            <img src="./images/05/bill.png" alt="" class="bill">
+            <img src="./images/05/card.png" alt="" class="card">
+            <div class="mouse"></div>
+            <img src="./images/05/hand.png" alt=""class="hand">
+            <img src="./images/05/words.png" alt="" class="words">
+        </div>
+        <div class="section section6">
+            <!-- 住着女孩的街道 -->
+            <div class="street">
+                <img src="./images/06/door.png" alt="" class="door">
+                <img src="./images/06/women.png" alt="" class="girl">
+            </div>
+            <!-- 装着沙发的盒子 -->
+            <div class="sofabox">
+                <img src="./images/04/sofa.png" alt="" class="sofa">
+                <img src="./images/06/box.png" alt="" class="littlebox">
+            </div>
+            <!-- 开着车的两个男人 -->
+            <div class="box">
+                <img src="./images/06/man.png" alt="" class="man">
+                <img src="./images/06/car.png" alt="" class="car">
+            </div>
+
+            <img src="./images/06/cloud.png" alt="" class="cloud">
+        </div>
+        <div class="section section7">
+            <div class="stars"></div>
+            <img src="./images/07/good.png" alt="" class="good">
+        </div>
+        <div class="section section8 active">
+            <img src="./images/08/again.png" alt="" class="again">
+            <div class="begin"></div>
+            <img src="./images/08/hand.png" alt="" class="hand">
+        </div>
+    </div>
+</body>
+</html>
+<!-- 
+    总结：
+        1.fullpage插件的使用；
+        2.jq.js文件必须放在使用它的文件的前面；
+        3.第一屏：动画的封装及使用；
+        4.第二屏：沙发从左到右移动时用marginLeft的变化；用一个盒子包住sofa,防止变形。
+        5.把该元素的响就事件关掉，事件就会向下层传递?
+        6.section8的js？
+        
+
+
+ -->
+
